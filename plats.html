@@ -10,33 +10,36 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-secondary border">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg bg-success-subtle shadow">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./assets/bananland_v1.PNG" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="#" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Attraction</a>
+                    <a class="nav-link" href="./indexAttraction.html">Attraction</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link">Plats & boissons</a>
+                    <a href="./plats.html" class="nav-link">Plats & boissons</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="./TPContact.html" class="nav-link">Contact</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link">À propos</a>
+                    <a href="./aPropos.html" class="nav-link">À propos</a>
                 </li>
             </ul>
             </div>
         </div>
-    </nav>
+        </nav>
+    </header>
+
     <section>
         <!-- Fil d'ariane -->
         <nav aria-label="breadcrumb">
@@ -153,5 +156,18 @@
             </div>
         </div>
     </section>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg bg-success-subtle mt-5" > 
+            <p class="col-md-4 mb-0 text-body-secondary">© 2026 Groupe 2 Banane</p> 
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+                <img src="./assets/bananland_v1.PNG" alt="Logo">
+            </a> 
+            <ul class="nav col-md-4 justify-content-end"> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accueil</a></li> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Attraction</a></li> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Plats & boissons</a></li> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li> 
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">À propos</a></li> 
+            </ul> 
+        </footer>
 </body>
 </html>

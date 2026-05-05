@@ -1,7 +1,12 @@
-@font-face {
+@font-face{
     font-family : Banana;
     src: url(./assets/police/Banana-Outline-Regular.ttf);
 }
-main {
+h3 {
 	font-family : Banana;
+}
+
+footer img{
+    max-width: 100px;
+    max-height: 100px;
 }
