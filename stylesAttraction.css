@@ -1,0 +1,7 @@
+@font-face {
+    font-family : Banana;
+    src: url(./assets/police/Banana-Outline-Regular.ttf);
+}
+* {
+	font-family : Banana;
+}

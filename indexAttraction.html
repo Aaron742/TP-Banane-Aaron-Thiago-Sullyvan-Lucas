@@ -4,27 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attractions</title>
+    <link rel="stylesheet" href="./stylesAttraction.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<body>
+</head>
+<body class="bg-image" style="background-image: url(./assets/image/bg-bananes.jpg)">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg bg-success-subtle shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img height="60px" src="./assets/image/logoBananaLandTransparent.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Attraction</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Plats & boissons</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">À propos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <nav class="p-2" aria-label="breadcrumb">
+            <ol class="breadcrumb my-2">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+        </nav>
+        </header>
     <main>
         <div>
+                    <!-- Page attraction -->
             <div class="container">
-                <div class="">
-                    <div class="row bg-danger">
-                        <div class="col-4">Nos attractions !</div>
+                <div class="row justify-content-center">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center py-5"><h2>🍌🍌Nos attractions🍌🍌</h2></div>
                     </div>
-                    <div class="row p-2 align-items-center justify-content-between bg-info">
-                        <div class="col-4"><img class="w-100" src="./assets/image/attractionBananaRama.png" alt="Photo BananaRama"></div>
-                        <div class="col-6"><h2>BananaRama</h2>Venez naviguer sur notre banane aquatique et faite face aux éléments qui se déchaîne ! A vos rames !</div>
+                    <div class="row p-4 m-4 align-items-center justify-content-between bg-info rounded col-12">
+                        <div class="col-12 col-sm-4">
+                            <div class="d-flex justify-content-start shadow-lg">
+                                <img class="w-100 rounded" src="./assets/image/attractionBananaRama.png" alt="Photo BananaRama">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <h3>BananaRama</h3>
+                            <p>Venez naviguer sur notre banane aquatique et faite face aux éléments qui se déchaîne ! A vos rames !</p>
+                            <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-dark btn-lg"> Tarif </button></div>
+                        </div>
                     </div>
-                    <div class="row p-2 align-items-center justify-content-between bg-warning">
-                        <div class="col-6"><h2>Banane à toute berzingue !</h2>Prenez le volant de votre banane la plus rapide et défier vos adversaires dans une course endiablée !</div>
-                        <div class="col-4"><img class="w-100" src="./assets/image/attractionBananaBerzingue.png" alt="Photo Banane à toute berzingue"></div>
+                    <div class="row d-flex p-4 m-4 align-items-center justify-content-between bg-warning rounded col-12">
+                        <div class="col-12 col-sm-4 order-sm-2">
+                            <div class="d-flex justify-content-end shadow-lg rounded-lg"><img class="w-100 rounded" src="./assets/image/attractionBananaBerzingue.png" alt="Photo Banane à toute berzingue"></div>
+                        </div>
+                        <div class="col-12 col-sm-6 order-sm-1">
+                            <h3>Banane à toute berzingue !</h3>
+                            <p>Prenez le volant de votre banane la plus rapide et défier vos adversaires dans une course endiablée !</p>
+                            <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-dark btn-lg"> Tarif </button></div>
+                        </div>
                     </div>
-                    <div class="row p-2 align-items-center justify-content-between bg-success">
-                        <div class="col-4"><img class="w-100" src="./assets/image/attractionLesAventuriersDeLaBananePerdue.png" alt="Photo Les aventuriers de la banane perdue"></div>
-                        <div class="col-6"><h2>Les aventuriers de la banane perdue</h2>D'humeur aventureuse ? Cette attraction est faite pour vous ! Venez pratiquer le parcourt bien banané que nous avons concocté pour les plus courageux et courageuses d'entre vous ! Que la banane soit avec vous !</div>
+                    <div class="row p-4 m-4 align-items-center justify-content-between bg-success rounded col-12">
+                        <div class="col-12 col-sm-4">
+                            <div class="d-flex justify-content-start shadow-lg"><img  class="w-100 rounded" src="./assets/image/attractionLesAventuriersDeLaBananePerdue.png" alt="Photo Les aventuriers de la banane perdue"></div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <h3>Les aventuriers de la banane perdue</h3>
+                            <p>D'humeur aventureuse ? Cette attraction est faite pour vous ! Venez pratiquer le parcourt bien banané que nous avons concocté pour les plus courageux et courageuses d'entre vous ! Que la banane soit avec vous </p>
+                            <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-dark btn-lg"> Tarif </button></div>
+                        </div>
                     </div>
                 </div>
             </div>
