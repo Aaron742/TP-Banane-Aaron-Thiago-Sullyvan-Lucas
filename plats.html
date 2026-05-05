@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Plats et boissons</title>
+    <link rel="stylesheet" href="plats.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary border">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/bananland_v1.PNG" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Attraction</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Plats & boissons</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link">À propos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <!-- Fil d'ariane -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb my-2 ms-2">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Plats & boissons</li>
+            </ol>
+        </nav>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner p-4" style="background-image: url(./assets/BananaLandHero.jpg);">
+                <h2 class="text-center mb-3" style="text-shadow: 1px 1px 2px black;">Les plus vendus</h2>
+                <div class="carousel-item active">
+                    <img src="./assets/boissonBananoCola.png" class="d-block mx-auto rounded-3" style="height: 500px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="text-shadow: 5px 5px 5px black;">En vedette !</h5>
+                        <p style="text-shadow: 5px 5px 5px black;">Banano Cola pour vous donner la <strong>BANANE !</strong></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/boissonJusDeFruitBaseBanane.png" class="d-block mx-auto rounded-3" style="height: 500px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="text-shadow: 5px 5px 5px black;">En vedette !</h5>
+                        <p style="text-shadow: 5px 5px 5px black;">Classique mais efficace à la <strong>BANANE !</strong></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/platGlaceALaBanane.png" class="d-block mx-auto rounded-3" style="height: 500px;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="text-shadow: 5px 5px 5px black;">En vedette !</h5>
+                        <p style="text-shadow: 5px 5px 5px black;">Une glace à la <strong>BANANE !</strong></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précedent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+
+        <h1 class="text-center my-5" style="text-shadow: 1px 1px 2px black;">Nos plats</h1>
+
+        <div class="container d-flex flex-row justify-content-center align-items-center">
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/platBananeFlambee.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Banane flambée</h5>
+                    <p class="card-text text-center">Banane légerement brulée et alcoolisée. Toujours bon. Peu importe l'heure.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/platBanoffee.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Banoffee</h5>
+                    <p class="card-text text-center">Gateau à la banane et au café, Banoffee.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/platGlaceALaBanane.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Glace à la banane</h5>
+                    <p class="card-text text-center">Glace à la banane, parfait en été.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/platCakeALaBanane.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Cake à la banane</h5>
+                    <p class="card-text text-center">Un cake à la banane, idéal pour une petite faim.</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center my-5" style="text-shadow: 1px 1px 2px black;">Nos boissons</h1>
+
+        <div class="container d-flex flex-row justify-content-center align-items-center">
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/boissonBananoCola.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Banane flambée</h5>
+                    <p class="card-text text-center">Banane légerement brulée et alcoolisée. Toujours bon. Peu importe l'heure.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/boissonJusDeFruitBaseBanane.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Banoffee</h5>
+                    <p class="card-text text-center">Gateau à la banane et au café, Banoffee.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/boissonJusDeFruitBaseBanane.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Glace à la banane</h5>
+                    <p class="card-text text-center">Glace à la banane, parfait en été.</p>
+                </div>
+            </div>
+
+            <div class="card me-5" style="width: 25rem; height: 25rem;">
+                <img src="./assets/platCakeALaBanane.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Cake à la banane</h5>
+                    <p class="card-text text-center">Un cake à la banane, idéal pour une petite faim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
