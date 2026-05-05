@@ -1,11 +1,23 @@
 @font-face {
   font-family: 'MaPolicePerso';
-  src: url('./fonts/BananaDays-lgYdD.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+  src: url('./fonts/Banana-Outline-Regular.ttf');
 }
 
 body {
-  font-family: 'MaPolicePerso', sans serif;
   background-image: url('./images/bg-bananes.jpg');
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MaPolicePerso";
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 0.8rem;
+}
+
+.bg-image {
+
+}
+
+
